@@ -1,0 +1,199 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/*header*/
+
+
+ Header{
+   width: 1349px;
+   height: 800PX;
+  background-image: url("https://static1.millenium.org/articles/7/36/74/37/@/1375263-bugha-ctrl-article_image_t-1.jpg");
+  background-size: 1350px 800px;
+  background-repeat: no-repeat;
+ }
+
+
+
+
+/*navbar*/
+ ul{
+   display: flex;
+  justify-content: flex-end;
+    list-style-type: none;
+    
+   
+   
+    
+    
+    
+  }
+  ul >li{
+margin-left: 10px;
+  }
+  .kk {
+      font-size: 20px;
+      color: orange; 
+  }
+  li a{
+    text-decoration: none;
+  }
+  li a :hover{
+    color: rgb(252, 252, 252);
+  }
+  li a:visited{
+    color: rgb(205, 90, 90);
+  }
+  /* .nav{
+    display: flex;
+    justify-content: space-between;
+  } */
+
+/*paragraph*/
+.home{
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 290px;
+  }
+  /*button*/
+  .button{
+    font-size: 40px;
+    padding: 10px;
+    margin-left: 650px;
+    text-align:center ;
+    background-color: rgb(175, 167, 167);
+    margin-top: 100px;
+  }
+.link{
+  text-decoration: none;
+}
+
+/*about section*/
+
+
+ .about{
+   background-color:#e5cfe5;
+   display: flex;
+   height: 700px;
+ }
+/*About section title*/
+ .aboutme{
+  text-align: center;
+  background-color: #e5cfe5e;
+  font-size: 50px;
+
+}
+ /*about section paragraph*/
+ #pa{
+   font-size: 30px;
+   margin-left: 50px;
+   padding: 50px;
+   background-color: whitesmoke;
+   height: 400px;
+   margin-top: 90px;
+   border: 2px solid red;
+   border-radius: 15px 50px 30px 5px;
+   
+  
+   /*about section table */
+    
+ }
+ table {
+  border-collapse: collapse;
+  height: 400px;
+}
+
+ table, th, td {
+  border: 1px solid black;
+}
+th,td{
+  font-size: 30px;
+}
+/*work section*/
+.work{
+  background-color: skyblue;
+}
+
+/*work section title*/
+.achievements{
+  text-align: center;
+  font-size: 50px;
+}
+/*work section videos*/
+.videos{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+}
+.vid{
+  margin-left: 50px;
+  margin-top: 50px;
+  width: 560px;
+   height:315px;
+}
+/*work section images*/
+.images{
+  display: flex;
+  flex-wrap:wrap;
+}
+.img{
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  padding-left: 150px;
+  transition: transform .2s;
+  margin-bottom: 30px;
+}
+.img:hover {
+  transform: scale(1.5);
+}
+
+/*contact section*/
+.contact{
+  background-color: #f5d142;
+  height: 700px;
+ 
+}
+.contacttitle{
+  text-align: center;
+  position: relative;
+  top: 60px;
+  font-size: 100px;
+ }
+
+
+/*footer*/
+footer{
+  background-color: #4287f5;
+}
+.footerp{
+
+  font-size: 20px;
+}
+.footerp1{
+  font-size: 10px;  
+}
+.email{
+  text-decoration: none;
+  font-size: 10px;
+}
+.social{
+  position: relative;
+  width: 400px;
+  left:500px;
+}
+.button-image{
+  width: 200px;
+  height: 400px;
+  
+}
+.button-images{
+  display: flex;
+  align-items: flex-end;
+  height: 600px;
+  justify-content: space-around;
+}
